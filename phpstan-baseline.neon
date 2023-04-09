@@ -1,0 +1,106 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Access to an uninitialized readonly property PreemStudio\\\\DataTransferObject\\\\AbstractDataTransferObject\\:\\:\\$unvalidated\\.$#"
+			count: 2
+			path: src/AbstractDataTransferObject.php
+
+		-
+			message: "#^Method PreemStudio\\\\DataTransferObject\\\\AbstractDataTransferObject\\:\\:toJson\\(\\) should return string but returns string\\|false\\.$#"
+			count: 2
+			path: src/AbstractDataTransferObject.php
+
+		-
+			message: "#^Method PreemStudio\\\\DataTransferObject\\\\AbstractDataTransferObject\\:\\:toModel\\(\\) should return Illuminate\\\\Database\\\\Eloquent\\\\Model but returns object\\.$#"
+			count: 1
+			path: src/AbstractDataTransferObject.php
+
+		-
+			message: "#^Parameter \\#1 \\$input of static method PreemStudio\\\\DataTransferObject\\\\AbstractDataTransferObject\\:\\:fromJson\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/AbstractDataTransferObject.php
+
+		-
+			message: "#^Unsafe usage of new static\\(\\)\\.$#"
+			count: 9
+			path: src/AbstractDataTransferObject.php
+
+		-
+			message: "#^Parameter \\#1 \\$time of static method Carbon\\\\CarbonImmutable\\:\\:parse\\(\\) expects DateTimeInterface\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/CarbonImmutableNormalizer.php
+
+		-
+			message: "#^Parameter \\#2 \\$time of static method Carbon\\\\CarbonImmutable\\:\\:createFromFormat\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/CarbonImmutableNormalizer.php
+
+		-
+			message: "#^Parameter \\#1 \\$time of static method Carbon\\\\Carbon\\:\\:parse\\(\\) expects DateTimeInterface\\|string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/CarbonNormalizer.php
+
+		-
+			message: "#^Parameter \\#2 \\$time of static method Carbon\\\\Carbon\\:\\:createFromFormat\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/CarbonNormalizer.php
+
+		-
+			message: "#^Method PreemStudio\\\\DataTransferObject\\\\Normalizers\\\\CollectionNormalizer\\:\\:serialize\\(\\) has parameter \\$value with generic class Illuminate\\\\Support\\\\Collection but does not specify its types\\: TKey, TValue$#"
+			count: 1
+			path: src/Normalizers/CollectionNormalizer.php
+
+		-
+			message: "#^Parameter \\#1 \\$items of class Illuminate\\\\Support\\\\Collection constructor expects Illuminate\\\\Contracts\\\\Support\\\\Arrayable\\<TKey of \\(int\\|string\\), TValue\\>\\|iterable\\<TKey of \\(int\\|string\\), TValue\\>\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/CollectionNormalizer.php
+
+		-
+			message: "#^Parameter \\#1 \\$datetime of class DateTimeImmutable constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/DateTimeImmutableNormalizer.php
+
+		-
+			message: "#^Parameter \\#2 \\$datetime of static method DateTimeImmutable\\:\\:createFromFormat\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/DateTimeImmutableNormalizer.php
+
+		-
+			message: "#^Parameter \\#2 \\$timezone of class DateTimeImmutable constructor expects DateTimeZone\\|null, string\\|null given\\.$#"
+			count: 1
+			path: src/Normalizers/DateTimeImmutableNormalizer.php
+
+		-
+			message: "#^Parameter \\#3 \\$timezone of static method DateTimeImmutable\\:\\:createFromFormat\\(\\) expects DateTimeZone\\|null, string\\|null given\\.$#"
+			count: 1
+			path: src/Normalizers/DateTimeImmutableNormalizer.php
+
+		-
+			message: "#^Parameter \\#1 \\$payload of method Illuminate\\\\Contracts\\\\Encryption\\\\Encrypter\\:\\:decrypt\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/EncryptedNormalizer.php
+
+		-
+			message: "#^Cannot cast mixed to float\\.$#"
+			count: 1
+			path: src/Normalizers/FloatNormalizer.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: src/Normalizers/IntegerNormalizer.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Normalizers/StringNormalizer.php
+
+		-
+			message: "#^Cannot cast Illuminate\\\\Support\\\\Str to string\\.$#"
+			count: 1
+			path: src/Normalizers/StringableNormalizer.php
+
+		-
+			message: "#^Parameter \\#1 \\$string of static method Illuminate\\\\Support\\\\Str\\:\\:of\\(\\) expects string, mixed given\\.$#"
+			count: 1
+			path: src/Normalizers/StringableNormalizer.php
