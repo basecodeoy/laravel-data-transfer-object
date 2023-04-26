@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Concerns;
 
-use Carbon\Carbon;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
 use BombenProdukt\DataTransferObject\Normalizers\CarbonNormalizer;
+use Carbon\Carbon;
 
 it('can serialize', function (): void {
     $dto = new class(['attribute' => '01.01.2023 12:00']) extends AbstractDataTransferObject

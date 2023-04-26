@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace BombenProdukt\DataTransferObject\Normalizers;
 
-use Carbon\Carbon;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
 use BombenProdukt\DataTransferObject\Contracts\Normalizer;
+use Carbon\Carbon;
 
 final class CarbonNormalizer implements Normalizer
 {

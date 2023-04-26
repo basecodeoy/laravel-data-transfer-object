@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace BombenProdukt\DataTransferObject\Normalizers;
 
-use Illuminate\Support\Str;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
 use BombenProdukt\DataTransferObject\Contracts\Normalizer;
+use Illuminate\Support\Str;
 
 final class StringableNormalizer implements Normalizer
 {

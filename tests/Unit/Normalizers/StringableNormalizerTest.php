@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Concerns;
 
-use Illuminate\Support\Stringable;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
 use BombenProdukt\DataTransferObject\Normalizers\StringableNormalizer;
+use Illuminate\Support\Stringable;
 
 it('can serialize', function (): void {
     $dto = new class(['attribute' => 'string']) extends AbstractDataTransferObject

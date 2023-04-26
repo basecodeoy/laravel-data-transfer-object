@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Concerns;
 
-use Illuminate\Database\Eloquent\Model;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
 use BombenProdukt\DataTransferObject\Normalizers\ClassNormalizer;
+use Illuminate\Database\Eloquent\Model;
 use Tests\Fixtures\User;
 
 it('can serialize', function (): void {

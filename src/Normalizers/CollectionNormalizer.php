@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace BombenProdukt\DataTransferObject\Normalizers;
 
-use Illuminate\Support\Collection;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
 use BombenProdukt\DataTransferObject\Contracts\Normalizer;
+use Illuminate\Support\Collection;
 
 final class CollectionNormalizer implements Normalizer
 {

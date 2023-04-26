@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Concerns;
 
-use Illuminate\Validation\ValidationException;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
+use Illuminate\Validation\ValidationException;
 use Tests\Fixtures\SampleDataTransferObject;
 
 it('validates arguments', function (): void {

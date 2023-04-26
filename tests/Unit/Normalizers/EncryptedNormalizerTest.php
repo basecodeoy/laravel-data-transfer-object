@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Concerns;
 
-use Illuminate\Contracts\Encryption\StringEncrypter;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
 use BombenProdukt\DataTransferObject\Normalizers\EncryptedNormalizer;
+use Illuminate\Contracts\Encryption\StringEncrypter;
 
 it('can serialize', function (): void {
     $dto = new class(['attribute' => app(StringEncrypter::class)->encryptString('Hello World')]) extends AbstractDataTransferObject

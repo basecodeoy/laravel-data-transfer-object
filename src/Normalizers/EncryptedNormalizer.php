@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace BombenProdukt\DataTransferObject\Normalizers;
 
-use Illuminate\Contracts\Encryption\Encrypter;
-use Illuminate\Contracts\Encryption\StringEncrypter;
 use BombenProdukt\DataTransferObject\AbstractDataTransferObject;
 use BombenProdukt\DataTransferObject\Contracts\Normalizer;
+use Illuminate\Contracts\Encryption\Encrypter;
+use Illuminate\Contracts\Encryption\StringEncrypter;
 
 final class EncryptedNormalizer implements Normalizer
 {
