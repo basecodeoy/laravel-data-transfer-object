@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/laravel-data-transfer-object/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-data-transfer-object" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-data-transfer-object">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/laravel-data-transfer-object" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-data-transfer-object">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/laravel-data-transfer-object" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-data-transfer-object">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/laravel-data-transfer-object" alt="License" />
-    </a>
-</p>
 
 ## About Laravel Data Transfer Object
 
