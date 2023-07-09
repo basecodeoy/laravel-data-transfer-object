@@ -14,7 +14,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/BombenProdukt/laravel-data-transfer-object",
+    "homepage": "https://github.com/faustbrian/laravel-data-transfer-object",
     "require": {
         "php": "^8.2",
         "illuminate/contracts": "^10.0",
