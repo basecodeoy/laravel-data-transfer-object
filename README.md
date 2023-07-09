@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/BombenProdukt/laravel-data-transfer-object/actions">
+    <a href="https://github.com/faustbrian/laravel-data-transfer-object/actions">
         <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-data-transfer-object" alt="Checks" />
     </a>
     <a href="https://packagist.org/packages/bombenprodukt/laravel-data-transfer-object">
@@ -21,7 +21,7 @@
 
 ## About Laravel Data Transfer Object
 
-This project was created by, and is maintained by [BombenProdukt](https://github.com/BombenProdukt), and is a package to easily make use of Data Transfer Objects with Laravel. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
+This project was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and is a package to easily make use of Data Transfer Objects with Laravel. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
 
 > **Note**
 > For a more comprehensive set of features take a look at [spatie/laravel-data](https://github.com/spatie/laravel-data) by [Spatie](https://github.com/sponsors/spatie).
